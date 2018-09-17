@@ -1,0 +1,31 @@
+Deploying a Cloud Computing Project
+
+1. Create a unique project ID on Google App Engine
+
+2. Now go to the folder where Python SDK for Google App Engine is present
+
+3. Shift + Right Click to open command prompt window here
+
+4. Now paste the following code in the Command Prompt Window
+
+appcfg.py -A <YOUR_PROJECT_ID_> update guestbook/
+
+Replace <YOUR_PROJECT_ID_>  by your project ID 
+and
+Replace guestbook/ by your project address
+
+Copy address directly from application folder
+
+5. It is important to configue the app.yaml file
+
+The blue selected part will be unique for your project
+
+url:.* - Gives permission to deploy the project
+
+6. Click Enter
+
+7. Your project is now uploaded
+
+8. It will be uploaded to the following URL:
+
+http://your-app-id.appspot.com/. 
